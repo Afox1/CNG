@@ -3,7 +3,8 @@ import joblib
 import numpy as np
 
 # Load the trained model
-model = joblib.load("cng_savings_model.pkl")
+model = joblib.load("cng_model_py39.pkl")
+
 
 st.set_page_config(page_title="CNG Savings Predictor")
 st.title("CNG Cost Savings Predictor")
